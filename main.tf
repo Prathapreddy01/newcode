@@ -81,3 +81,8 @@ listener {
   instance_port = 8080
   instance_type = "t2.micro"
 }
+
+resource "aws_s3" {
+  region = "ap-south-1a"
+  name = "newmys3bucket"
+}
