@@ -77,3 +77,8 @@ resourcce "aws_ec2" "temp" {
   instance_port = 8080
   instance_type = "t2.micro"
 }
+
+listener {
+  instance_port = 8080
+  instance_type = "t2.micro"
+}
